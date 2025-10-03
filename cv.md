@@ -10,7 +10,7 @@ Skilled Software Engineer with 4.5 years of hands-on experience in Java developm
 
 ### WORK EXPERIENCE
 
-| Systems                  | Almaty      |
+| Systems                       | Almaty      |
 | :---------------------------- | :---------- |
 | Middle Java Software Engineer | 2021 – 2025 |
 | + Improved request processing speed from seconds to milliseconds by using parallelism for data calculation. |
