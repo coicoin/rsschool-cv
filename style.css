@@ -52,7 +52,7 @@ table, th, td {
     text-align: left;
     border-collapse: collapse;
     border-radius: 5%;
-    table-layout:fixed;    
+    table-layout:fixed;
 }
 
 .table-right {
