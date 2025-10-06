@@ -7,5 +7,211 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h3>John Doe</h3>
+        <h3>Frontend Developer</h3>
+    </header>
+
+    <main>
+        <section class="contacts">
+            <p><span class="bold">Location:</span> Kazakhstan. Open to relocation.</p>
+            <p><span class="bold">Contacts:</span> +7(000)-000-00-00 | <a href="mailto:gmail@gmail.com">Gmail</a> | <a href="https://www.linkedin.com/in">LinkedIn</a></p>
+        </section>
+        
+        <section class="summary">
+            <h3>SUMMARY</h3>
+            <p>Java Software Engineer with 4.5 years of hands-on experience in banking, petroleum, retail, and pharmaceutical projects. Skilled in building scalable backend systems, optimizing performance with concurrency, integrating enterprise systems. Strong in Java, Spring Boot and Hibernate. Passionate about clean code, system design and continuous learning.</p>
+        </section>
+
+        <section class="experience">
+            <h3>WORK EXPERIENCE</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Epam Systems</th>
+                        <th class="table-right">Almaty</th>
+                    </tr>
+                    <tr>
+                        <th>Middle Java Software Engineer</th>
+                        <th class="table-right">2021 – 2025</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            Improved request processing speed from seconds to milliseconds by using parallelism for data calculation.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Added compound keys to enforce record uniqueness and eliminate duplicates in the database.
+                        </td colspan="2">
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Optimized JPA queries using entity graphs and lazy loading, reducing SQL response time by over 50%.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Configured Prometheus and Grafana metrics for system monitoring and performance analysis.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Extended UI functionality using ReactJS to display generation status in real time, helping reduce development time for urgent tasks.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Junior Java Software Engineer</th>
+                        <th class="table-right">2020 - 2021</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            Developed stored procedures.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Reduced processing time of 600k items by 100x using parallelism and refactoring.
+                        </td colspan="2">
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Automated updates for 12M+ records using JS scripts and file uploads to support timely marketing goals.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Mentored interns and junior developers, and provided knowledge transfer to support team.	
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Increased MongoDB query performance by 10x with proper indexing.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="education">
+            <h3>EDUCATION</h3>
+            <p>
+                <ul>
+                    <li>Tomsk State University of Control Systems and Radioelectronics, Bachelor's in Software Engineering (2018 - 2022)</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="cert">
+            <h3>CERTIFICATIONS</h3>
+            <p>
+                <ul>
+                    <li>Oracle Certified Professional: Java SE 17 Developer (2024)</li>
+                    <li>Red Hat Certified System Administrator (2019)</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="lang">
+            <h3>LANGUAGES</h3>
+            <p>
+                <ul>
+                    <li>
+                        Russian (native)
+                    </li>
+                    <li>
+                        English B2
+                    </li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="skills">
+            <h3>TECHNICAL SKILLS</h3>
+            <p>Java, JavaScript, HTML, CSS, Spring Boot, Hibernate, PostgreSQL, MongoDb, Oracle, MSSQL, H2Db, Git, Docker, Kubernetes, Prometheus, Grafana, Redis, JDBC, ApachePOI, RabbitMQ, Kafka, WSO2 Message Broker, JUnit, Mockito, Jenkins, Liquibase, Flyway, Swagger, WSO2, XSLT, Linux.</p>
+        </section>
+
+        <section>
+            <h3>CODE EXAMPLE</h3>
+            <code>
+                <pre>
+                    header {
+                        text-align: center;
+                        font: 18px/1.5 sans-serif;
+                    }
+
+                    main {
+                        width: 40%;
+                        position: absolute;
+                        left: 30%;
+                        right: 30%;
+                    }
+
+                    p, h3 {
+                        margin: 0 0;
+                        padding: 0 0;
+                        color: #333;
+                    }
+
+                    section {
+                        padding: 1% 0;
+                    }
+
+                    .contacts {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .contacts a {
+                        text-decoration: none;
+                    }
+
+                    .summary h3, .experience h3, .skills h3 {
+                        margin-bottom: 1%;
+                    }
+
+                    span.bold {
+                        font-weight: 700;
+                        font-family: sans-serif;
+                    }
+
+                    section h3 {
+                        font-weight: 700;
+                    }
+
+                    table {
+                        margin-bottom: 1%;
+                    }
+
+                    table, th, td {
+                        border: 1px solid #eee;
+                        width: 100%;
+                        text-align: left;
+                        border-collapse: collapse;
+                        border-radius: 5%;
+                        table-layout:fixed;    
+                    }
+
+                    .table-right {
+                        width: 20%;
+                    }
+
+                    td {
+                        padding: 2px;
+                        padding-left: 1%;
+                    }
+                </pre>
+            </code>
+        </section>
+
+    </main>
 </body>
 </html>
