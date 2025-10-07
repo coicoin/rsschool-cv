@@ -1,16 +1,16 @@
-### <center>John Doe</center> <center>Frontend Developer</center>
+### <center>John Doe</center> 
+### <center>Frontend Developer</center>
 
 **Location:** Kazakhstan. Open to relocation.\
 **Contacts:** +7000 000 00 00 | [Gmail](gmail@gmail.com) | [LinkedIn](https://www.linkedin.com/in)
 
 ### SUMMARY
-
 Skilled Software Engineer with 4.5 years of hands-on experience in Java development, transitioning into frontend/fullstack engineering. Proven track record in building scalable backend systems, optimizing performance through concurrency, and integrating enterprise-level applications. Passionate about clean code principles, system design, and continuous learning.
 
 
 ### WORK EXPERIENCE
 
-| Systems                  | Almaty      |
+| Systems                       | Almaty      |
 | :---------------------------- | :---------- |
 | Middle Java Software Engineer | 2021 – 2025 |
 | + Improved request processing speed from seconds to milliseconds by using parallelism for data calculation. |
